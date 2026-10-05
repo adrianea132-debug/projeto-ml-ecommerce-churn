@@ -35,7 +35,7 @@ Apesar de menor acurácia geral, o KNN apresentou recall superior para a classe 
 
 ## 🎥 Vídeo de Apresentação
 
-[Link do vídeo aqui]
+[https://drive.google.com/file/d/18AhaNisFWEgHT2YX7KN18mlftj0os_Ms/view?usp=sharing]
 
 ## 👤 Autora
 
