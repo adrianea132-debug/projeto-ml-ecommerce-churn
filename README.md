@@ -23,7 +23,7 @@ Base de dados de e-commerce com 5.630 clientes e 20 variáveis, incluindo tempo 
 
 Modelo recomendado: **KNN (K=7)**
 
-Apesar de menor acurácia geral, o KNN apresentou recall superior para a classe de churn, minimizando o erro mais custoso para o negócio: deixar de identificar um cliente que realmente vai cancelar.
+Com acurácia geral equivalente à da Árvore (~85%), o KNN apresentou recall superior para a classe de churn, minimizando o erro mais custoso para o negócio: deixar de identificar um cliente que realmente vai cancelar.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -35,12 +35,9 @@ Apesar de menor acurácia geral, o KNN apresentou recall superior para a classe 
 
 ## 🎥 Vídeo de Apresentação
 
-(https://drive.google.com/file/d/18AhaNisFWEgHT2YX7KN18mlftj0os_Ms/view?usp=sharing)
+[Assista ao vídeo](https://drive.google.com/file/d/18AhaNisFWEgHT2YX7KN18mlftj0os_Ms/view?usp=sharing)
 
 > **Observação:** após a gravação do vídeo, corrigi o tratamento de valores nulos no notebook (preenchimento com a mediana). Com isso, alguns números da Pergunta 5 mudaram levemente: a acurácia geral dos dois modelos ficou empatada em cerca de 85%, o recall de churn passou para 85% no KNN e 68% na Árvore, e a matriz de confusão passou a mostrar 28 clientes perdidos pelo KNN contra 61 da Árvore, e 135 contra 106 cupons enviados sem necessidade. A recomendação final continua a mesma: **KNN (K=7)**. Os valores atualizados estão no notebook.
-
-
-[https://drive.google.com/file/d/18AhaNisFWEgHT2YX7KN18mlftj0os_Ms/view?usp=sharing]
 
 ## 👤 Autora
 
